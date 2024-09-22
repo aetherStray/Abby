@@ -4,47 +4,47 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
-  { text: "Un segundo de su tiempo es una eternidad", time: 9 },
-  { text: "un suspiro de su aliento es un llanto abismal", time: 14 },
-  { text: "un amante en abandono quien va a regresar", time: 20 },
-  { text: "en su frente el colmo de la triste humanidad", time: 25 },
-  { text: "Con un ser converso", time: 31 },
-  { text: "de otro universo", time: 35 },
+  { text: "Un segundo de su tiempo es una eternidad", time: 11 },
+  { text: "un suspiro de su aliento es un llanto abismal", time: 16 },
+  { text: "un amante en abandono quien va a regresar", time: 22 },
+  { text: "en su frente el colmo de la triste humanidad", time: 27 },
+  { text: "Con un ser converso", time: 33 },
+  { text: "de otro universo", time: 37 },
 
-  { text: "Algún dia te dejaré", time: 43 },
-  { text: "por siempre de buscar", time: 46 },
-  { text: "lo digo porque sé ", time: 49 },
-  { text: "nos vamos a encontrar", time: 51 },
-  { text: "en un púrpura atardecer ", time: 54 },
-  { text: "que no se apagará", time: 57 },
-  { text: "todos van a vers", time: 60 },
-  { text: "un nuevo principío ", time: 62 },
-  { text: "un encuentro del...", time: 65 },
-  { text: "tercer tipo", time: 67 },
+  { text: "Algún dia te dejaré", time: 45 },
+  { text: "por siempre de buscar", time: 47 },
+  { text: "lo digo porque sé ", time: 50 },
+  { text: "nos vamos a encontrar", time: 53 },
+  { text: "en un púrpura atardecer ", time: 56 },
+  { text: "que no se apagará", time: 58 },
+  { text: "todos van a ver", time: 62 },
+  { text: "un nuevo principío ", time: 64 },
+  { text: "un encuentro del...", time: 67 },
+  { text: "tercer tipo", time: 69 },
 
-  { text: "¿Dónde se origina el viento que se oye pasar?", time: 81},
-  { text: "¿Quién sabe de donde proviene y donde irá a parar?", time: 85 },
-  { text: "así es andar", time: 91 },
-  { text: "así es la libertad", time: 95 },
+  { text: "¿Dónde se origina el viento que se oye pasar?", time: 82},
+  { text: "¿Quién sabe de donde proviene y donde irá a parar?", time: 87 },
+  { text: "así es andar", time: 93 },
+  { text: "así es la libertad", time: 97 },
 
-  { text: "Algún dia te dejaré", time: 103 },
-  { text: "por siempre de buscar", time: 105 },
-  { text: "lo digo porque sé ", time: 109 },
-  { text: "nos vamos a encontrar", time: 111 },
-  { text: "en un púrpura atardecer ", time: 113 },
-  { text: "que no se apagará", time: 117 },
-  { text: "todos van a vers", time: 119 },
-  { text: "un nuevo principío ", time: 122 },
-  { text: "un encuentro del...", time: 124 },
-  { text: "tercer tipo", time: 127 },
+  { text: "Algún dia te dejaré", time: 105 },
+  { text: "por siempre de buscar", time: 107 },
+  { text: "lo digo porque sé ", time: 110 },
+  { text: "nos vamos a encontrar", time: 113 },
+  { text: "en un púrpura atardecer ", time: 116 },
+  { text: "que no se apagará", time: 118 },
+  { text: "todos van a ver", time: 121 },
+  { text: "un nuevo principío ", time: 124 },
+  { text: "un encuentro del...", time: 126 },
+  { text: "tercer tipo", time: 129 },
 
 
-  { text: "Todos te van a ver ", time: 166 },
-  { text: "tambien los que no me creen", time: 168 },
-  { text: "un nuevo principio ", time: 171 },
-  { text: "sin estereotipos", time: 174 },
-  { text: "un encuentro del...", time: 177 },
-  { text: "tercer tipo ", time: 179},
+  { text: "Todos te van a ver ", time: 168 },
+  { text: "tambien los que no me creen", time: 170 },
+  { text: "un nuevo principio ", time: 173 },
+  { text: "sin estereotipos", time: 176 },
+  { text: "un encuentro del...", time: 179 },
+  { text: "tercer tipo ", time: 181},
 ];
 
 // Animar las letras
@@ -69,7 +69,7 @@ function updateLyrics() {
   }
 }
 
-setInterval(updateLyrics, 1000);
+setInterval(updateLyrics, 100);
 
 //funcion titulo
 // Función para ocultar el título después de 216 segundos
