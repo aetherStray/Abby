@@ -40,6 +40,28 @@ body {
       font-size: 14px; /* Reduce el tamaño del texto para dispositivos más pequeños */
       margin-bottom: 530px;
       letter-spacing: 3px;
+      text-shadow: 1px  0px 0px black,
+      0px  1px 0px black,
+     -1px  0px 0px black,
+      0px -1px 0px black;
+    }
+
+  .titulo {
+      font-size: 14px;
+      margin-bottom: 10px;
+      font-family: "Times New Roman";
+      scolor: rgb(255, 73, 179);
+      position: absolute;
+      font-weight: bold;
+      letter-spacing: 2px;
+      opacity: 1;
+      animation: fadeIn 3s ease-in-out forwards;
+      text-align: center;
+      z-index: 1;
+      text-shadow: 1px  0px 0px black,
+               0px  1px 0px black,
+              -1px  0px 0px black,
+               0px -1px 0px black;
   }
 
 }
